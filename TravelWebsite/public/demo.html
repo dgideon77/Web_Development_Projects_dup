@@ -1,0 +1,391 @@
+<html>
+    <head>
+        <title>chinnu</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            *
+{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+ height: 100%;
+ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/bb1.jpg?v=1695909659870");   
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ padding-top: 20px;
+ text-align: center;
+ color: #fff;
+}
+.header img {
+    width: 170px;
+    float: left;
+}
+.logout-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+}
+.header h1{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    margin: 18px 0;
+}
+.input-group{
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+
+}
+.features{
+    padding: 100px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img{
+    width: 100%;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.feature-img{
+    position: relative;
+}
+.ratings{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa{
+    margin-right: 10px;
+}
+.feater-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+}
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    display: block;
+    color: #fff;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner{
+    height: 80%;
+    background-image: url("https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/banner2.jpg?v=1695890538382");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+.bookinng-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+.footer{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#2d557d,#9610fd);
+    color: #fff;
+
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer h4 p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart{
+    margin: 0 5px;
+    color: #f44336;
+}
+.footer .copyright{
+    text-align: center;
+}
+.header button:hover{
+ background: red;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <section class="header">
+            <div class="container">
+                <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/triptok.png?v=1695875993683">
+                <button type="button" class="logout-btn">Logout</button>  
+            </div>
+            <h1>Travel Across the World</h1>
+            <p>Make Sweet Memories across</p>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search country or City">
+                <div class="input-group-append">
+                    <button type="submit" class="input-group-text btn">Search</button>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <h1>Featured Destinations</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feater-box">
+                            <div class="feature-img">
+                                <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/1.jpg?v=1695883110052">
+                            <div class="price">
+                                <p>78$</p>
+                            </div>
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            </div>
+                            <div class="feature-details">
+                                <p>Los Angeles is a vibrant and diverse city known for its stunning beaches, iconic landmarks, and rich cultural scene. When creating content for a travel website, it's essential to highlight the unique features and attractions that make Los Angeles a must-visit destination.</p>
+                            </div>
+                            <div>
+                                <Span><i class="fa fa-map-marker"></i> Los Angeles</Span>
+                                <Span><i class="fa fa-sun-o"></i> 4 Days</Span>
+                                <Span><i class="fa fa-moon-o"></i> 3 Nights</Span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feater-box">
+                            <div class="feature-img">
+                                <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/2.jpg?v=1695888111663">
+                            <div class="price">
+                                <p>85$</p>
+                            </div>
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            </div>
+                            <div class="feature-details">
+                                <p>Paris, the capital of France, is one of the world's most iconic tourist destinations. Known as the "City of Love" and "City of Light,".It has Historic Landmarks,Cultural Riches,Fashion,Romance,Museums,Parks,making it a top destination for travelers from around the world</p>
+                            </div>
+                            <div>
+                                <Span><i class="fa fa-map-marker"></i>Paris</Span>
+                                <Span><i class="fa fa-sun-o"></i> 5 Days</Span>
+                                <Span><i class="fa fa-moon-o"></i> 4 Nights</Span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feater-box">
+                            <div class="feature-img">
+                                <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/3.jpg?v=1695888113998">
+                            <div class="price">
+                                <p>105$</p>
+                            </div>
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            </div>
+                            <div class="feature-details">
+                                <p>New York City, a bustling global hub, boasts a plethora of iconic attractions and experiences.World-class museums,the city offers something for everyone. The city's rich history and culinary diversity make it an irresistible destination for travelers seeking an unforgettable urban adventure.</p>
+                            </div>
+                            <div>
+                                <Span><i class="fa fa-map-marker"></i>New York</Span>
+                                <Span><i class="fa fa-sun-o"></i> 7 Days</Span>
+                                <Span><i class="fa fa-moon-o"></i> 6 Nights</Span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section classs="gallery">
+            <h1>Travelling Gallery</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="gallery-box">
+                        <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/travel-1.jpg?v=1695889196341">
+                        <h4>Los Angeles</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="gallery-box">
+                        <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/travel-4.jpg?v=16958892038531">
+                        <h4>Paris</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="gallery-box">
+                        <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/bb4.jpg?v=1695910982265">
+                        <h4>Paris</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="gallery-box">
+                        <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/newyork.jpg?v=1695911605917">
+                        <h4>New York</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="banner-highlights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2>Get 30% on top destination</h2>
+                            <p>Book your ticket before 31 october and avail 30% flat discount.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <button type="submit" class="bookinng-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="https://cdn.glitch.global/2a48b532-b665-49c6-b258-bf6fe631c788/triptok.png?v=1695875993683" class="footer-logo">
+                        <p>A travel website is an online platform dedicated to providing information, resources, and services for travelers. These websites typically offer a wide range of content and tools to help individuals plan, book, and navigate their trips. </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Features</h4>
+                        <p>Deals & offers</p>
+                        <p>Customer Review</p>
+                        <p>Cancelation Policy</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Quick Contact</h4>
+                        <p><i class="fa fa-phone-square"></i>+91 9989979225</p>
+                        <p><i class="fa fa-envelope"></i>jaganism@gmail.com</p>
+                        <p><i class="fa fa-home"></i>multiplex Road,Bhimavaram </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Follow Us on</h4>
+                        <p><i class="fa fa-facebook-official"></i>Facebook</p>
+                        <p><i class="fa fa-youtube-play"></i>Youtube</p>
+                        <p><i class="fa fa-twitter"></i>Twitter</p>
+                    </div>
+                </div><hr>
+                <p class="copyright">Made with <i class="fa fa-heart"></i>by D.Gideon</p>
+            </div>
+        </section>
+    </body>
+</html>
